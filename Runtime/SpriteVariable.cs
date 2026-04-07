@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ShoelaceStudios.SOAP.Variables
 {
-    [CreateAssetMenu(fileName = "New Transform SO", menuName = "🧩 SO Architecture/Variables/Reference/Sprite", order = 41)]
+    [CreateAssetMenu(fileName = "New Sprite SO", menuName = "🧩 SO Architecture/Variables/Reference/Sprite", order = 41)]
     public class SpriteVariable : SOVariable<Sprite>
     {
         public override Sprite Value

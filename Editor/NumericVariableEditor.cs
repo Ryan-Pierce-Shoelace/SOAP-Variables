@@ -1,7 +1,6 @@
-using System;
+#if UNITY_EDITOR 
 using UnityEditor;
 using UnityEngine;
-
 namespace ShoelaceStudios.SOAP.Variables.Editor
 {
     [CustomEditor(typeof(SONumericVariable<>), true)]
@@ -75,3 +74,4 @@ namespace ShoelaceStudios.SOAP.Variables.Editor
         }
     }
 }
+#endif
